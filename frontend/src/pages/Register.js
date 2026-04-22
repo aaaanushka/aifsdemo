@@ -10,7 +10,7 @@ function Register() {
 
   const register = async () => {
     try {
-      await axios.post("http://localhost:5000/api/register", {
+      await axios.post("https://aifs-backend.onrender.com/api/register", {
         email,
         password,
       });
